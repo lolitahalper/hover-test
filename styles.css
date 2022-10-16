@@ -1,0 +1,179 @@
+h1{
+		color: white;
+		font-size: 145px;
+		text-align: center;
+		text-shadow: 2px 2px 0px black;
+		margin: 0;
+		line-height: 250px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	body{
+		background-color: black;
+		margin: 0px;
+	}
+
+	 #label {
+	 	width: 1100px;
+	 	margin: 0 auto;
+	 	background-color: lightgray;
+	}
+
+
+	#label ul {
+		list-style: none;
+		padding: 0;
+		margin: 0 auto;
+		height: 100px;
+		font-size: 40px;
+		background-color: rosybrown;
+		line-height: 100px;
+		position: absolute;
+		z-index: 9999;
+	}
+
+	#label li {
+		float: left;
+		width: 500px;
+		text-align: center;
+		font-size: 40px;
+		height: 100px;
+		margin: 0 auto;
+		position: relative;
+		background-color: rosybrown;
+			
+	}
+
+	#label li:hover {
+		background-color: lightpink;
+	}
+
+	#label a {
+		text-decoration: none;
+		display: block;
+		color: white;
+	}
+
+	#label ul ul {
+		visibility: hidden;
+	}
+
+	#label li:hover > ul {
+		visibility: visible;
+	}
+
+	#label-bar {
+		background-color: rosybrown;
+		height: 100px;
+		margin: 0 auto;
+		width: 1100px;
+	}
+
+	#label a.active {
+		background-color: pink;
+		color: white;
+	}
+
+
+/*
+	#label-wrapper {
+		background-color: lightgray;
+	}
+	 #label {
+	 	width: 1100px;
+	 	margin: 0 auto;
+	 	background-color: lightgray;
+	}
+	#label a{
+		height: 100px;
+		width: 500px;
+		font-size: 21px;
+		line-height: 80px;
+		color: black;
+		text-decoration: none;
+		font-size: 30px;
+		text-align: center;
+		display: inline-block;
+		margin: 0 auto;
+	}
+	#label a:hover {
+		background-color: rosybrown;
+		color: white;
+	}
+	#label a.active {
+		background-color: pink;
+		color: white;
+	}
+	*/
+
+	#header{
+		background-image: url('gossipgirl-header.jpg');
+		height: 500px;
+		background-size: cover;
+		background-position: bottom;
+		padding: 15px;
+		background-repeat: no-repeat;
+	}
+
+	#container{
+		width: 1100px;
+		margin: 0 auto;
+		background-color: white;
+
+	}
+
+	#content{
+		width: 630px;
+		background-color: white;
+		padding: 15px 15px;
+		float: left;
+
+	}
+
+	#sidebar {
+		width: 300px;
+		background-color: rosybrown;
+		float: left;
+		text-align: center;
+	}
+
+	.rightimg{
+		width: 100px;
+		height: auto;
+		float: right;
+		padding-left:5px;
+		padding-top:5px;
+	}
+
+	.leftimg {
+		width: 70px;
+		height: auto;
+		float: left;
+		clear: left;
+		padding-left:5px;
+		padding-top:5px;
+	}
+
+	#footer{
+		background-color: darkslategray;
+		color: white;
+		text-align: center;
+		height: 50px;
+		padding: 30px;
+	}
+
+	#column1 {
+		width: 750px;
+	}
+
+	#column2 {
+		width: 250px;
+	}
+
+	/*.thumbnail{
+		width: 180px;
+		overflow: hidden;
+		margin: 5px;
+		padding: 10px;
+		text-align: center;
+	}8?

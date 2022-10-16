@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Favorite TV Show </title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<style>
+
+
+
+	img {
+		padding: 40px;
+	}
+
+	h1 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 145px;
+	}
+
+	h2 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+	} 
+
+
+	#content {
+		width: 630px;
+		background-color: white;
+		padding: 15px 15px;
+		float: left;
+	}
+
+	.rightimg {
+		width: 100px;
+		height: auto;
+		float: right;
+		padding-left:5px;
+		padding-top:5px;
+	}
+
+	.leftimg {
+		width: 70px;
+		height: auto;
+		float: left;
+		clear: left;
+		padding-left:5px;
+		padding-top:5px;
+	}
+
+	#sidebar {
+		width: 300px;
+		background-color: rosybrown;
+		float: left;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+
+
+
+
+	.thumbnail-wrapper {
+		position: relative;
+		width: auto;
+
+	}
+
+	.thumbnail {
+		display: block;
+		width: 180px;
+		height: auto;
+		margin: 5px;
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	.overlay {
+		position: absolute;
+		top: 10px;
+		bottom: 10px;
+		left: 0px;
+		right: 0;
+		height: auto;
+		width: 180px;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: rgba(0, 0, 0, .4);
+		margin: 0 auto;
+	}
+
+	.thumbnail-wrapper:hover .overlay {
+		opacity: 1;
+	}
+
+	.img-description {
+		 color: #fff;
+		 font-size: 16px;
+		 position: absolute;
+		 top: 50%;
+		 left: 50%;
+		 text-align: center;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);	
+}
+
+	.clearfloat {
+		 clear: both;
+}
+
+
+ </style>
+
+</head>
+
+<body>
+
+<div id="header"> <!-- start header div -->
+	<h1>Gossip Girl</h1>	
+</div> <!-- end header div -->
+
+<div id="label-bar"> <!--label-bar-->
+	<div id="label"> <!--label-->
+		<ul> <!--Labels-->
+			<li><a href="index.html" class="active">Home</a>
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#characters">Characters</a></li>
+						<li><a href="#production">Production Info</a></li>
+					</ul>
+			</li>
+			<li><a href="gallery.html">Gallery</a></li>
+		</ul> <!--Labels-->
+	</div> <!--label-->
+		
+	<div class="clearfloat"></div>
+</div> <!--label bar-->
+
+<div id="container"> <!--start container div -->
+
+<div id="sidebar"> <!--start sidebar div-->
+		<h4>The Cast</h4>
+			
+			<div class="thumbnail-wrapper">
+				<img class="thumbnail" src="img/serena.jpg" alt="serena">
+				<div class="overlay">
+					<div class="img-description">Serena Van Der Woodsen<br><em>Blake Lively</em></div>
+				</div>
+			</div>
+
+			<div class="thumbnail-wrapper">	
+				<img class="thumbnail" src="img/blair.jpg" alt="blair">
+				<div class="overlay">
+					<div class="img-description">Blair Waldorf<br><em>Leighton Meester</em></div>
+			</div>
+			</div>
+
+			<div class="thumbnail-wrapper">
+				<img class="thumbnail" src="img/natearchibald.jpg" alt="nate">
+				<div class="overlay">
+					<div class="img-description">Nate Archibald<br><em>Chace Crawford</em></div>
+			</div>
+			</div>
+
+			<div class="thumbnail-wrapper">
+				<img class="thumbnail" src="img/chuckbass.jpg" alt="chuck">
+				<div class="overlay">
+					<div class="img-description">Chuck Bass<br><em>Ed Westwick</em></div>
+			</div>
+			</div>
+	</div> <!--end sidebar div-->
+
+	<div id="content"> <!--start content div -->
+
+		<h2 id="about">About</h2><img class="rightimg" src="gossip2.jpg" alt="gossipgirl pic 1" width="150">
+		<p>Take a dip in the life of luxury - Gossip Girl leads you through the over priced, upper class lives of New York's finest. Blair Waldorf is a self described schemer, who's future is mapped out. Serena Van Der Woodsen is her social, beautiful best friend. Throughout the show the two engage in conflicts and reconciliations as their rivalry comes to a head. </p><br> 
+		<p>Nate Archibald is the dashing descendent of the Vanderbilts and is the group's most eligible bachelor. Chuck Bass is the manipulative son of a powerful father. Their romantic entanglements consume the majority of the show. Throughout all the seasons, a variety of antagonists is rotated in and out. The viewer will begin the show scoffing at the flashy, ridiculous premise and will end up obsessed and held in suspense.</p>
+
+	
+		<h2 id="characters">Characters</h2> <img class="leftimg" src="gossip1.jpg" alt="gossip girl pic">
+		<p>Serena Van Der Woodsen is a blonde and beautiful socialite. Everyone knows Serena. Blair Waldorf is Serena's best friend but it's always about Serena not Blair. </p><br>
+		<p>Nate Archibald is Blair's boyfriend but ever since Serena came back from boarding school Nate has been acting strange. Chuck Bass is a rich and arrogant person. Daniel Humphrey, a lonely boy from Brooklyn, NY, who nobody knows.</p>
+
+	
+		<h2 id="production">Production Info</h2> <img class="rightimg" src="gossipgirl3.jpg" alt="film 3">
+		<p>Because of its location in New York, executive producer Stephanie Savage said, "We were quickly told it would be too expensive, too complicated" at the beginning of the series. She said that it had been proposed to shoot in a Los Angeles studio that would recreate Central Park, but they eventually filmed the series in New York. Savage explained their choice to film there, "There's no New York City on TV, or there wasn't when we started making the pilot, except what you could see in the background behind the dead bodies on cop shows.</p><br>
+		<p>We've never seen the city from the point of view of teenagers. It felt like a world with high stakes for young people." Schwartz added, "What's funny about these teenagers is they grew up watching Sex and the City, even though it wasn't about them. And I think they've probably incorporated that into how they mythologize New York. I fought really hard to shoot the show in New York because we want New York to be a character in the show."[53] Many scenes were filmed in the Empire Hotel on the Upper West Side.</p>
+		
+	</div> <!--end content div-->
+
+	<div class="clearfloat"></div>
+
+</div> <!--end container div -->
+
+
+<div id="footer"> <!--start footer div-->
+	<p><em>Catch it on Netflix</em></p>
+</div> <!--end footer div-->
+
+</body>
+</html>

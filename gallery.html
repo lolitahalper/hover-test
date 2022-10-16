@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Favorite TV Show </title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<style>
+
+	h1 {
+		font-size: 65px;
+	}
+
+	#header{
+		background-image: url('galleryimg/gallery5.jpg');
+		height: 350px;
+		background-position: top; 
+
+	}
+
+	#container{
+		width: 1100px;
+		margin: 0 auto;
+		background-color: white;
+		padding: 0px;
+
+	}
+
+	#row1 {
+		height: 300px;
+		width: 1100px;
+		margin: 0px;
+		margin: 0 auto;
+	}
+	
+	#row2 {
+		height: 300px;
+		width: 1100px;
+		margin: 0 auto;
+	}
+	#row3 {
+		height: 300px;
+		width: 1100px;
+		margin: 0 auto;
+	}
+	
+	#row4 {
+		height: 300px;
+		width: 1100px;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+
+	#gallery1 {
+		width: 549px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+	}
+
+
+	#gallery2 {
+		width: 458px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+	}
+
+	#gallery3 {
+		width: 227px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+	}
+
+	#gallery4 {
+		width: 415px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+		
+	}
+
+	#gallery5 {
+		width: 475px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+	}
+
+	#gallery6 {
+		width: 440px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+		
+	}
+
+	#gallery7 {
+		width: 400px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+	
+	}
+
+	#gallery8 {
+		width: 208px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+	}
+
+	#gallery9 {
+		width: 280px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+	}
+
+	#gallery10 {
+		width: 362px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+		
+	}
+
+	#gallery11 {
+		width: 317px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+	}
+
+	#gallery12 {
+		width: 216px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+		
+	}
+
+	#gallery13 {
+		width: 345px;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+		
+		
+	}
+
+	.landscape {
+		width: 100%;
+		height: auto;
+	}
+
+	.portrait {
+		width: auto;
+		height: 100%;
+	}
+
+	img {
+		padding: 15px;
+	}
+
+
+
+
+.thumbnails {
+		position: relative;
+		width: auto;
+	}
+
+.portrait {
+		display: block;
+		width: auto;
+		height: 100%;
+	}
+
+.overlay {
+		 position: absolute;
+		 top: 15px;
+		 bottom: 0;
+		 left: 15px;
+		 right: 0;
+		 height: 100%;
+		 width: 100%;
+		 opacity: 0;
+		 transition: .5s ease;
+		 background-color: rgba(0,0,0,.4);
+	}	
+	
+
+	.thumbnails:hover .overlay {
+		opacity: 1;
+	}
+	.text {
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+  		text-align: center;
+	}
+
+ </style>
+
+</head>
+
+<body>
+
+<div id="header"> <!-- start header div -->
+	<h1>Gossip Girl</h1>
+	
+
+</div> <!-- end header div -->
+<div id="label-bar">
+		<div id="label">
+			<ul>
+				<li><a href="index.html" >Home</a>
+						<ul>
+							<li><a href="">About</a></li>
+							<li><a href="">Characters</a></li>
+							<li><a href="">Production Info</a></li>
+						</ul>
+				</li>
+				<li><a href="gallery.html" class="active">Gallery</a></li>
+			</ul>
+
+			
+
+		</div> <!--label-->
+		<div class="clearfloat"></div>
+</div> <!--label bar-->
+
+
+<div id="container"> <!--start container div -->
+
+		<div id="row1">
+			
+			<div class="thumbnails" id="gallery7">
+				<img class="portrait" src="galleryimg/gallery7.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Blair & Serena on the Steps of the Met</div>
+				</div>
+			</div>
+
+			<div class="thumbnails" id="gallery5">
+				<img class="portrait" src="galleryimg/gallery5.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Main actors of Gossip Girl</div>
+				</div>
+			</div>
+
+			<div class="thumbnails" id="gallery8">
+				<img class="portrait" src="galleryimg/gallery8.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Blair & Serena shopping</div>
+				</div>
+			</div>
+		
+			<div style="clear:both;"></div>
+		</div>
+
+
+		<div id="row2">
+
+			<div class="thumbnails" id="gallery4">
+				<img class="portrait" src="galleryimg/gallery4.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Chuck & Blair dating</div>
+				</div>
+			</div>
+
+			<div class="thumbnails" id="gallery3">
+				<img class="portrait" src="galleryimg/gallery3.jpg" alt="gallery1">
+				<div class="overlay">
+					<<div class="text">Chuck & Nate</div>
+				</div>
+			</div>
+
+			<div class="thumbnails" id="gallery2">
+				<img class="portrait" src="galleryimg/gallery2.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Serena & Lily, her mom</div>
+				</div>
+			</div>
+
+			<div style="clear:both;"></div>
+		</div>
+
+		<div id="row3">	
+
+			<div  class="thumbnails" id="gallery6"> 
+
+				<img class="portrait" src="galleryimg/gallery6.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Lily & Chuck's father</div>
+				</div>
+			</div>
+
+			<div  class="thumbnails" id="gallery9">
+		
+				<img class="portrait" src="galleryimg/gallery9.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Main 4 characters of Gossip Girl</div>
+				</div>
+			</div>
+
+			<div class="thumbnails" id="gallery10">
+
+				<img class="portrait" src="galleryimg/gallery10.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Serena & Dan Season 1</div>
+				</div>
+			</div>
+
+			<div style="clear:both;"></div>
+		</div>
+
+		<div id="row4">
+
+			<div class="thumbnails"  id="gallery1">
+				<img class="portrait" src="galleryimg/gallery1.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Smiling Picture</div>
+				</div>
+			</div> 
+
+			<div class="thumbnails"  id="gallery12">
+				<img class="portrait" src="galleryimg/gallery12.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Serena in a Fashion Show</div>
+				</div>
+			</div>
+
+			<div class="thumbnails"  id="gallery11">
+				<img class="portrait" src="galleryimg/gallery11.jpg" alt="gallery1">
+				<div class="overlay">
+					<div class="text">Four significant characters scheming</div>
+				</div>
+			</div>
+		
+
+		<div style="clear:both;"></div>
+	</div>
+
+</div> <!--end container div -->
+
+
+<div id="footer"> <!--start footer div-->
+
+	<p><em>Catch it on Netflix</em></p>
+
+</div> <!--end footer div-->
+
+</body>
+</html>
